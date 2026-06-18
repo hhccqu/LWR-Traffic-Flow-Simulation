@@ -1,0 +1,19 @@
+\begin{table}
+\caption{LWR模型参数汇总 (Greenshields)}
+\label{tab:params}
+\begin{tabular}{lll}
+\toprule
+Parameter & Value (SI) & Value (practical) \\
+\midrule
+自由流速度 v_max & 33.33 m/s & 120.0 km/h \\
+堵塞密度 ρ_max & 0.1500 veh/m & 150 veh/km \\
+临界密度 ρ_c & 0.0750 veh/m & 75 veh/km \\
+最大通量 q_max & 1.2499 veh/s & 4500 veh/h \\
+道路长度 L & 2000 m & — \\
+默认网格数 Nx & 400 & — \\
+默认网格间距 Δx & 5 m & — \\
+默认 CFL 数 & 0.8 & — \\
+密度-速度模型 & Greenshields 线性模型 & v = v_max(1-ρ/ρ_max) \\
+\bottomrule
+\end{tabular}
+\end{table}

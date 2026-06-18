@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# LaTeX auxiliary files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex*
+
+# Output images/tables (large, regeneratable)
+output/figures/*.png
+output/tables/*.csv
+
+# IDE
+.vscode/
+.idea/

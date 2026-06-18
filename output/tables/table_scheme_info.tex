@@ -1,0 +1,14 @@
+\begin{table}
+\caption{数值格式对比}
+\label{tab:schemes}
+\begin{tabular}{lll}
+\toprule
+Scheme & Order & Description \\
+\midrule
+Godunov & 1阶 & 基于Riemann精确解，物理意义强，激波捕捉准确 \\
+Lax-Friedrichs & 1阶 & 经典中心差分，无条件稳定，数值耗散大 \\
+Upwind & 1阶 & 迎风格式，按特征方向差分，稳定且耗散适中 \\
+MacCormack & 2阶 & 预测-校正两步格式，二阶精度，激波附近有振荡 \\
+\bottomrule
+\end{tabular}
+\end{table}
